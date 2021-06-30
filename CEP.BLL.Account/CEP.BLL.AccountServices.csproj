@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CEP.BLL.BaseDbService\CEP.BLL.BaseDbService.csproj" />
+    <ProjectReference Include="..\CEP.DAL\CEP.DAL.csproj" />
+    <ProjectReference Include="..\CEP.Models\CEP.Models.csproj" />
+  </ItemGroup>
+
+</Project>
